@@ -1,0 +1,169 @@
+body{
+    background-color: #0097FF;
+}
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 { font-size: 8.0rem; }
+  h2 { font-size: 7.4rem; }
+  h3 { font-size: 6.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
+/* Mobile First queries*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  h1 { font-size: 8.0rem; }
+  h2 { font-size: 7.4rem; }
+  h3 { font-size: 6.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 { font-size: 8.0rem; }
+  h2 { font-size: 7.4rem; }
+  h3 { font-size: 6.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
+
+/*Larger than tablet */
+@media (min-width: 750px) {
+  h1 { font-size: 8.0rem; }
+  h2 { font-size: 7.4rem; }
+  h3 { font-size: 6.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  h1 { font-size: 8.0rem; }
+  h2 { font-size: 7.4rem; }
+  h3 { font-size: 6.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
+
+/* Larger than desktop HD */
+@media (min-width: 1200px) {
+  h1 { font-size: 8.0rem; }
+  h2 { font-size: 7.4rem; }
+  h3 { font-size: 6.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
+
+/*@media only screen and (max-width:640px){
+
+    ul.topnav li:not(:first-child) {display:none;}
+    ul.topnav li.icon{
+        float: right;
+        display: inline-block;
+    }
+    ul.topnav.reponsive {position:relative;}
+    ul.topnav.reponsive li.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.reponsive li{
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a{
+        display: block;
+        text-align: left;
+    }
+}*/
+
+.navbar{
+    background-color: #0082ff;
+    position: fixed;
+    top:0;
+    width: 100%;
+    font-size:18px
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.home{
+    padding: 75px;
+}
+
+
+.education{
+    padding: 75px;
+}
+
+.skills{
+    padding: 75px;
+}
+
+.additional_information{
+    padding: 75px;
+}
+
+.nav-bar li a{
+    color: #5f6bef;
+}
+
+ul{
+    text-align: center;
+    background-color: #4f4f4f;
+    padding: 20px;
+    font-size: 27px;
+}
+li{
+    display: inline;
+}
+body{
+    text-align: center;
+}
+form{
+    display: inline-block;
+}
+
+h4{
+    color: #000000;
+}
+h5{
+    color: #000000;
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+}
+.Bull, .Diesel, .Total, .Ayman{
+    padding:8px;
+    text-align: center;
+}
+.gamertag{
+    text-align: center;
+}
+.table{
+    width: 75%;
+    align-self: center;
+}
